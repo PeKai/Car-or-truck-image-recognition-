@@ -109,6 +109,12 @@ During the filtering step a kernel scans over over an image. Without going into 
 
 Whilst, thier are alot of Hyperparameters for MaxPooling and ConvNets, the most important hyperparameter is the stride and input_shape. In short, the input shape is the shape inwhich the image is being fed into the network, where the last element is telling us what color-type the image is ([height,widtch,color-type], 3 is RGP, 0 is black and white etc.). Moreover, the stride (which is also mentioned as a hyperparameter in the MaxPooling layer), determines how good the quiality of the image will be, in short if the stride if high important information will get lost. Its recommended to have a stride of 1 during the Convnet and reLU funktion, as compared to the MaxPooling where a high stride is possiable. This is because potential valuble information will get lost during the Convnet and reLU funktion stage, in comparision to the MaxPooling inwhich its porpose is to reduce data points. 
 
+Lastly, the CNN, reLU and MaxPooling are often referred as the base, and following dense layers are referred to the head. Here the idea is that the base does all the feuture extractions, which than gets passed onto the dense layer which than classfies the image. Heres a picture shown below. 
+
+<div align="center">
+  <img src="https://i.ibb.co/f2R9HwZ/U0n5xjU.png"><br><br>
+</div>
+
 ### Special Neurons
 #### Dropout
 A model can use dropout classes; These are computationally cheap and very effective in reducing overfitting, and essetially 'drops out' out nodes randomly during training. The hyperparameter as shown is the percentage of neurons randomly being dropped out. 
