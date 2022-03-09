@@ -112,10 +112,9 @@ Whilst, thier are alot of Hyperparameters for MaxPooling and ConvNets, the most 
 Lastly, the CNN, reLU and MaxPooling are often referred as the base, and following dense layers are referred to the head. Here the idea is that the base does all the feuture extractions, which than gets passed onto the dense layer which than classfies the image. Heres a picture shown below. 
 
 <div align="center">
-  <img src="https://i.ibb.co/f2R9HwZ/U0n5xjU.png"><br><br>
+  <img src="https://i.ibb.co/f2R9HwZ/U0n5xjU.png", style="color:orange;"><br><br>
 </div>
 
-- ![#f03c15](https://i.ibb.co/f2R9HwZ/U0n5xjU.png) `#f03c15`
 
 ### Special Neurons
 #### Dropout
