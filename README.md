@@ -115,6 +115,8 @@ Lastly, the CNN, reLU and MaxPooling are often referred as the base, and followi
   <img src="https://i.ibb.co/f2R9HwZ/U0n5xjU.png"><br><br>
 </div>
 
+- ![#f03c15](https://i.ibb.co/f2R9HwZ/U0n5xjU.png) `#f03c15`
+
 ### Special Neurons
 #### Dropout
 A model can use dropout classes; These are computationally cheap and very effective in reducing overfitting, and essetially 'drops out' out nodes randomly during training. The hyperparameter as shown is the percentage of neurons randomly being dropped out. 
