@@ -130,7 +130,7 @@ model.fit(
     train_generator,
     validation_data=test_generator,
     epochs=50,
-    callbacks=[[EarlyStopping(monitor='loss'), TerminateOnNaN()]
+    callbacks=[EarlyStopping(monitor='loss',restore_best_weights=True,patience=5),TerminateOnNaN()]
 )
 
 ```
