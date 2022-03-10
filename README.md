@@ -136,7 +136,7 @@ model.fit(
     train_generator,
     validation_data=test_generator,
     epochs=50,
-    callbacks=[callbacks=[EarlyStopping(monitor='loss'), TerminateOnNaN()]]
+    callbacks=[[EarlyStopping(monitor='loss'), TerminateOnNaN()]]
 )
 
 ```
