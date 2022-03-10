@@ -132,7 +132,7 @@ model.compile(
     metrics=['binary_accuracy'],
 )
 
-history = model.fit(
+model.fit(
     train_generator,
     validation_data=test_generator,
     epochs=50,
