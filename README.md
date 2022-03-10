@@ -62,12 +62,6 @@ model = Sequential([
                   input_shape=[128, 128, 3]),
     layers.MaxPool2D(),
 
-    layers.Conv2D(filters=64, kernel_size=3, activation="relu", padding='same'),
-    layers.MaxPool2D(),
-
-    layers.Conv2D(filters=128, kernel_size=3, activation="relu", padding='same'),
-    layers.MaxPool2D(),
-
     layers.Flatten(),
     layers.Dense(units=12, activation="relu"),
     layers.Dropout(0.4),
@@ -136,7 +130,7 @@ model.fit(
     train_generator,
     validation_data=test_generator,
     epochs=50,
-    callbacks=[[EarlyStopping(monitor='loss'), TerminateOnNaN()]]
+    callbacks=[[EarlyStopping(monitor='loss'), TerminateOnNaN()]
 )
 
 ```
