@@ -114,7 +114,7 @@ Lastly, the CNN, reLU and MaxPooling are often referred as the base, and followi
 #### Dropout
 A model can use dropout classes; These are computationally cheap and very effective in reducing overfitting, and essetially 'drops out' out nodes randomly during training. The hyperparameter as shown is the percentage of neurons randomly being dropped out. 
 
-#### BatchNormalization!
+#### BatchNormalization
 Often its preferred to normalize data before it gets fed into the model, mabye normalizing in the middle of the network is better, which is exacly what the BatchNormalization does. 
 
 ## Fitting 
