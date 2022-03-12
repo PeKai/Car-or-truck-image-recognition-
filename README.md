@@ -1,4 +1,4 @@
-
+# Introduction to Convelutional Neural Network
 
 Our objective is to figure out how a neural network can interpret a natural image good enough to solve issues similar to those that a human can. The neural networks which exel in this area are called convolutional neural network. The idea of convolutional neural networks are inspired by the human visual cortex. Next I will be taking you through a simple CNN moldel, predicting if an image is a Car or a Truck.
 
